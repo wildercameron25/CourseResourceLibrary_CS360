@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    	<meta charset="utf-8">
+   	 	<meta name="viewport" content="width-device-width, initial-scale=1">
+    	<title>Course Resource Library Login Page</title>
+    	<link rel="stylesheet" href="loginPage.css">
+  </head>
+   <script> 
+           
+              function validateForm(){
+                     var username = document.getElementById('email').value;
+                     var password = document.getElementById('password').value;
+                      if (username == 'CS360Test@gmail.com' && password == 'CS360'){
+                             document.getElementById('sucess').innerHTML = 'sucessful login';
+                             // redirect code in page
+                            // window.location.href = 'dashboardPage.html'
+                        return false;
+                        } else {
+                             alert('invalid credentials');
+                            return false;
+                         }
+                    }
+            
+        
+   </script>
+  <body>
+  		<section>
+  			<div class="landingBox">
+  			<img src="landingImage.png">
+  			</div>
+  			
+  			<div class="loginContentBox">
+  				<div class="loginFormBox">
+  						<h2> Login your Account </h2>
+  						<form  method="POST" onsubmit="return validateForm();" action="dashboardPage.html">
+  						
+  								<div class="loginInputBox">
+  									<span> Email Address </span>
+  									<input type="text" name= "email" id="email" required="Yes">
+  								</div>
+  								
+  								<div class="loginInputBox">
+  									<span> Password </span>
+  									<input type="password" name= "password" id="password"  required="Yes">
+  								</div>
+  								
+  								<div class="rememberMe">
+  									<label><input type="checkbox" name=" "> Remember me <label>
+  								</div>
+  								
+  								
+  								<div class="loginInputBox">
+  								       <input type="submit" value="Sign in" id="submit" onsubmit="return myFunction()"></input>
+  								</div>
+  								
+  								<div class="loginInputBox">
+  									<p> Don't have an account? <a href="registerPage.html"> Register Here </a></p>
+  								</div>
+  								
+  						</form>
+  				</div>
+  			</div>
+  
+
+  </body>
+</html>

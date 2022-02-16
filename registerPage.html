@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    	<meta charset="utf-8">
+   	 	<meta name="viewport" content="width-device-width, initial-scale=1">
+    	<title>Course Resource Library Register Page</title>
+    	<link rel="stylesheet" href="registerPage.css">
+  
+  
+<script>
+
+           
+              function validateForm(){
+                     var username = document.getElementById('email').value;
+                     var password = document.getElementById('password').value;
+                      if (username == 'CS360Test@gmail.com' && password == 'CS360'){
+                             document.getElementById('sucess').innerHTML = 'sucessfully registered';
+                             // redirect code in page
+                            // window.location.href = 'dashboardpage.html'
+                        return false;
+                        } else {
+                             alert('invalid credentials');
+                            return false;
+                         }
+                    }
+            
+  
+  
+  
+  
+</script>  
+  
+  
+  </head>
+  <body>
+  		<section>
+  			<div class="landingBox">
+  			<img src="landingImage.png">
+  			</div>
+  			
+  			<div class="registerContentBox">
+  				<div class="registerFormBox">
+  						<h2> Register your Account </h2>
+  						<form method="POST" onsubmit="return validateForm();" action="dashboardPage.html">
+  						     <div class="user-details"> 
+  						         <div class="registerBioInputBox"> 
+  						              <span> First Name </span> 
+  						              	    <input type="text"  placeholder="Enter First Name"  name= " " id="fname">
+  						         </div> 
+  						         
+  						          <div class="registerBioInputBox"> 
+  						              <span> Last Name </span> 
+  						              	    <input type="text"  placeholder="Enter Last Name"  name= " "  id="lname">
+  						          </div> 
+  						          
+  						          <div class="registerBioInputBox"> 
+  						              <span> Age </span> 
+  						              	    <input type="text"  placeholder="Enter Age"  name= " " id="age" >
+  						          </div> 
+  						          
+  						          <div class="registerBioInputBox"> 
+  						              <span> City, State Initial</span> 
+  						              	    <input type="text"  placeholder="Enter City, State "  name= " " id="cs" >
+  						          </div>
+  						         
+  						          <div class="registerInputBox"> 
+  						              <span > Most Recent Education </span>
+  								               <select class="combo" id=combobox>
+  								                       <option value="Select">Select....</option>
+  								                       <option value="HighSchoolGrad"> High School Graduate </option>
+  								                       <option value="CollegeUndergrad"> College Undergraduate </option>
+  								                       <option value="CollegeGrad"> College Graduate </option>
+                                                 </select>
+
+  						          </div> 
+  						         
+  								<div class="registerInputBox">
+  									<span> Email Address </span>
+  									<input type="text"  placeholder=" Enter Email Address"  name= " " id="email">
+  								</div>
+  								
+  								<div class="registerInputBox">
+  									<span> Password </span>
+  									<input type="password"   placeholder=" Enter Password" name= " " id="password">
+  								</div>
+  						</div>
+  						         
+  						         <br>
+  								<div class="registerInputBox">
+  								     <input type="submit" value="Register" id="register" onsubmit="return myFunction()">
+  								</div>
+  								
+  								<div class="registerInputBox">
+  									<p> Already have an account? <a href="loginPage.html"> Login Here </a></p>
+  								</div>
+  								
+  						</form>
+  				</div>
+  			</div>
+  
+  </body>
+  </html>

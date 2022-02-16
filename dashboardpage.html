@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    	<meta charset="UTF-8">
+   	 	<meta name="viewport" content="width-device-width, initial-scale=1">
+    	<title>Course Resource Library Dashboard Page</title>
+    	<link rel="stylesheet" href="dashboardPage.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="w3.css">
+    <script>
+         function previewFile() {
+                var preview = document.querySelector('img');
+                var file    = document.querySelector('input[type=file]').files[0];
+                var reader  = new FileReader();
+
+                reader.addEventListener("load", function () {
+                         preview.src = reader.result;
+                }, false);
+
+                if (file) {
+                       reader.readAsDataURL(file);
+                }
+            }
+            
+               $(function() {
+                     $('#profile-image1').on('click', function() {
+                     $('#profile-image-upload').click();
+                    
+                });
+            });
+            
+        
+    </script>
+<style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+  </head>
+  <body>
+    
+   <header>
+ 
+      <div class="left_area">
+        <h3>Dashboard </h3>
+      </div>
+      <div class="right_area">
+              <a class="active" href="#">Quizzes</a>
+              <a class="active" href="forumLisitingPage.html">Forums</a>
+      </div>
+    </header>
+    
+    <div class="sidebar">
+         <center>
+         <form action="#" method="post">
+                <div class="profile-pic">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7jQPameD633rQUVhrvSydfTvWY5HT16mhSA&usqp=CAU" id="photo-image1" >
+                        <input type="file" id="file"  onchange="previewFile()" >
+                        <label for="file" id="uploadBtn"></label>
+                </div>     
+                <div class="userInfo">
+                        <h2> Sarina&nbsp;Lalria </h2> 
+                </div>   
+                   <div class="logout">
+                     <h3><a href="loginPage.html">Logout</a></h3>
+                </div> 
+          </center>
+                   <div class="userInfo2">
+                       
+                        <p><br> Age : 20 <p>
+                        <p> City/State : Fort Wayne, IN <p>
+                        <p> Most Recent Education: College Undergraduate<p>
+                </div>  
+                
+             
+        </form>
+          
+              <div class="wrapper">
+               <form class="search" action="#">
+			   
+				<div id="myDropdown" class="dropdown-content">
+			   
+                    <input type="text" placeholder="Search for course.." name="search" id="myInput" onkeyup="filterFunction()" ><button type="submit" id="btn"><i class="fa fa-search"></i></button>
+                    
+					
+					<div id="ss" style="display:none";>
+						<a href="#about" onclick="addtolist('CS 360 - Software Engineering',1);">CS 360 - Software Engineering</a>
+						<a href="#base" onclick="addtolist('CS 232 - Introduction to C and Unix',2);">CS 232 - Introduction to C and Unix</a>
+						<a href="#blog" onclick="addtolist('CS 364 - Introduction to Database Systems',3);">CS 364 - Introduction to Database Systems</a>
+						<a href="#contact" onclick="addtolist('CS 161 - Introduction to Computer Science II',4);">CS 161 - Introduction to Computer Science II</a>
+						<a href="#custom" onclick="addtolist('CS 160 - Introduction to Computer Science I',5);">CS 160 - Introduction to Computer Science I</a>
+					
+					</div>
+				</div>
+
+                    </form>
+              </div>
+			  
+			  						
+						  <div class="wrapperDetail" id="wd"></div>
+		
+			  
+			  
+			  
+			  
+			  
+			  
+    </div>
+         
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {}
+  document.getElementById("myDropdown").classList.toggle("show");
+
+
+function filterFunction() {
+	document.getElementById("btn").style.display="none";
+	document.getElementById("ss").style.display="block";
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  if(input.value==""){
+  document.getElementById("ss").style.display="none";
+  document.getElementById("btn").style.display="block";
+  }
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+<script>
+<!-- the function addtolist adds courses to the division inner html-->
+function addtolist(csdetail,demoid){
+<!-- the if statments are stating if the id = 1, 2, 3, 4, or 5, that is what the course it is and initializing the course Description for that course-->
+var link=" ";
+if(demoid==1){
+link = "crp_360.html";
+var coursedescription='P: CS360 and ENG W243.&nbsp;Cr.3 <br> This course provides an introduction to the methods of software engineering...';
+}
+if(demoid==2){
+var coursedescription='P: CS161&nbsp;CR. 3<br>This course is an introduction to the C language and the Unix operating system...';
+link = "crp_232.html";
+}
+if(demoid==3){
+var coursedescription='P: CS260&nbsp;CR. 3<br>Theory and application of database systems for information organization and retrieval based...';
+link="crp_364.html";
+}
+if(demoid==4){
+var coursedescription='P: CS160 and MA175&nbsp;CR. 4<br>This course continues CS 160. Students will design larger programs to solve more complicated problems...';
+link="crp_161.html";
+}
+if(demoid==5){
+var coursedescription='P: MA153&nbsp;CR. 4<br>An introduction to the fundamental concepts and techniques of Computer Sciences...';
+link="crp_160.html";
+}
+
+
+var wd  = document.getElementById("wd");
+wd.innerHTML=wd.innerHTML + '<div class="w3-container w3-cell w3-mobile"><p><div class="w3-card-4" style="width:80%"><img src="img.jpg" alt="Course" style="width:100%"><div class="w3-container w3-center"><a href='+link+'>'+csdetail+' </a><br><br><button onclick="myFunction(\'Demo'+demoid+'\')" class="w3-button w3-block w3-left-align">More Detail..</button><div width="30%" height="300px" id="Demo'+demoid+'" class="w3-container w3-hide"><p>'+coursedescription+'</p></div></div></div></div>';
+}
+</script>
+
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+<script>
+document.onkeydown = (function(e) {
+     if (e.key === "Escape") { 
+        document.getElementById("myInput").value = ""; 
+        document.getElementById("ss").style.display = "none"; 
+        document.getElementById("btn").style.display="block";
+    }
+});
+</script>
+  </body>
+  </html>
