@@ -13,7 +13,8 @@
               function validateForm(){
                      var username = document.getElementById('email').value;
                      var password = document.getElementById('password').value;
-                      if (username == 'CS360Test@gmail.com' && password == 'CS360'){
+					 var userType = document.getElementById('userType').value;
+                      if (username == 'CS360TestStudent@gmail.com' && password == 'CS360' && userType == "Student"){
                              document.getElementById('sucess').innerHTML = 'sucessfully registered';
                              // redirect code in page
                             // window.location.href = 'dashboardpage.html'
@@ -73,6 +74,17 @@
                                                  </select>
 
   						          </div> 
+
+								  <div class="registerInputBox">
+									  <span> Role </span>
+									  		<select class="combo" id="userType">
+												  <option value="Select">Select....</option>
+												  <option value="Student"> Student </option>
+												  <option value="Instructor"> Instructor </option>
+												  <option value="Admin"> Admin </option>
+											  </select>
+
+								  </div>
   						         
   								<div class="registerInputBox">
   									<span> Email Address </span>
