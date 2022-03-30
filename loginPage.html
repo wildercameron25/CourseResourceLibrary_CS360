@@ -11,7 +11,8 @@
               function validateForm(){
                      var username = document.getElementById('email').value;
                      var password = document.getElementById('password').value;
-                      if (username == 'CS360TestStudent@gmail.com' && password == 'CS360'){
+					 var userType = document.querySelector('input[type=radio][name=role]:checked').value;
+                      if (username == 'CS360TestStudent@gmail.com' && password == 'CS360' && userType == "student"){
                              document.getElementById('sucess').innerHTML = 'sucessful login';
                              // redirect code in page
                             // window.location.href = 'dashboardPage.html'
@@ -34,7 +35,14 @@
   				<div class="loginFormBox">
   						<h2> Login your Account </h2>
   						<form  method="POST" onsubmit="return validateForm();" action="dashboardPage.html">
-  						
+								<div>
+									<input type="radio" name="role" value="student">
+									<label>Student</label><br/>
+									<input type="radio" name="role" value="instructor">
+									<label> Instructor </label><br/>
+									<input type="radio" name="role" value="admin">
+									<label> Admin </label><br/>
+								</div>
   								<div class="loginInputBox">
   									<span> Email Address </span>
   									<input type="text" name= "email" id="email" required="Yes">
