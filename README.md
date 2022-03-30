@@ -47,7 +47,7 @@ Due to the project being primarily client based, there is no server-aspect to de
 # Course Resource Library - Spring 2022
 
 This is edit of the above project done by the former Team 3
-All of our changes will be done based off of the source code given to us
+All of our changes will be done based off of the source code supplied to us
 
 Team 4:
 Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
@@ -56,23 +56,23 @@ Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
 
 # Our Goals
 1.  To implement a seperate login page for the following:<br />
-        Students
-        Instructors
-        Admins
-2.  To allow the above register for their assigned roles.
+        Students<br />
+        Instructors<br/>
+        Admins<br/>
+2.  To allow the above register for their assigned roles
 
 --- 
 
 # To Register
-1.  To register sucessfull under the "Student" category:
-        Email: `CS360TestStudent@gmail.com`
-        Password: `CS360`
-        Role: `Student`
+1.  To register sucessfull under the "Student" category:<br/>
+        Email: `CS360TestStudent@gmail.com`<br/>
+        Password: `CS360`<br/>
+        Role: `Student`<br/>
     This will take you to the dashboard page
 
 ---
 
 # To Login
-1.  To login as a Student:
-        Email: `CS360TestStudent@gmail.com`
-        Password: `CS360`
+1.  To login as a Student:<br/>
+        Email: `CS360TestStudent@gmail.com`<br/>
+        Password: `CS360`<br/>
