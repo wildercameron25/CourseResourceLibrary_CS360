@@ -57,22 +57,22 @@ Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
 # Our Goals
 1.  To implement seperate login methods for the following:<br />
         &emsp;Students<br />
-        Instructors<br/>
-        Admins<br/>
+        &emsp;Instructors<br/>
+        &emsp;Admins<br/>
 2.  To allow the above register for their assigned roles
 
 --- 
 
 # To Register
 1.  To register sucessfull under the "Student" category:<br/>
-        Email: `CS360TestStudent@gmail.com`<br/>
-        Password: `CS360`<br/>
-        Role: `Student`<br/>
+        &emsp;Email: `CS360TestStudent@gmail.com`<br/>
+        &emsp;Password: `CS360`<br/>
+        &emsp;Role: `Student`<br/>
     This will take you to the dashboard page
 
 ---
 
 # To Login
 1.  To login as a Student:<br/>
-        Email: `CS360TestStudent@gmail.com`<br/>
-        Password: `CS360`<br/>
+        &emsp;Email: `CS360TestStudent@gmail.com`<br/>
+        &emsp;Password: `CS360`<br/>
