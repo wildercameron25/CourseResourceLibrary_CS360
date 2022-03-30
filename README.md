@@ -40,6 +40,10 @@ Due to the project being primarily client based, there is no server-aspect to de
 1. The default username is `CS360Test@gmail.com` and the default password is `CS360` 
 "# CS360" 
 
+---
+---
+---
+
 # Course Resource Library - Spring 2022
 
 This is edit of the above project done by the former Team 3
