@@ -49,7 +49,7 @@ Due to the project being primarily client based, there is no server-aspect to de
 This is edit of the above project done by the former Team 3
 All of our changes will be done based off of the source code supplied to us
 
-Team 4:
+Team 4: 
 Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
 
 --- 
