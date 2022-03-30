@@ -55,7 +55,7 @@ Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
 --- 
 
 # Our Goals
-1.  To implement a seperate login page for the following:
+1.  To implement a seperate login page for the following:<br />
         Students
         Instructors
         Admins
