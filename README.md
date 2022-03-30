@@ -56,7 +56,7 @@ Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
 
 # Our Goals
 1.  To implement seperate login methods for the following:<br />
-        Students<br />
+        &emsp;Students<br />
         Instructors<br/>
         Admins<br/>
 2.  To allow the above register for their assigned roles
