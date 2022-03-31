@@ -8,17 +8,17 @@
   </head>
    <script> 
            
-              function validateForm(){
+              function validateForm(form){
                      var username = document.getElementById('email').value;
                      var password = document.getElementById('password').value;
 					 var userType = document.querySelector('input[type=radio][name=role]:checked').value;
-                      if (username == 'CS360TestStudent@gmail.com' && password == 'CS360' && userType == "student"){
-                             document.getElementById('sucess').innerHTML = 'sucessful login';
-                             // redirect code in page
-                            // window.location.href = 'dashboardPage.html'
-                        return false;
+                    if (username == 'CS360TestStudent@gmail.com' && password == 'CS360' && userType == "student"){
+						document.getElementById('sucess').innerHTML = 'sucessful login';
+                        // redirect code in page
+                        // window.location.href = 'dashboardPage.html'
+						return false;
                         } else {
-                             alert('invalid credentials');
+							alert('invalid credentials');
                             return false;
                          }
                     }
@@ -34,13 +34,13 @@
   			<div class="loginContentBox">
   				<div class="loginFormBox">
   						<h2> Login your Account </h2>
-  						<form  method="POST" onsubmit="return validateForm();" action="dashboardPage.html">
+  						<form  method="POST" onsubmit="return validateForm(this);" action="dashboardpage.html">
 								<div>
-									<input type="radio" name="role" value="student">
+									<input type="radio" name="role" value="student" required="Yes">
 									<label>Student</label><br/>
-									<input type="radio" name="role" value="instructor">
+									<input type="radio" name="role" value="instructor" required="Yes">
 									<label> Instructor </label><br/>
-									<input type="radio" name="role" value="admin">
+									<input type="radio" name="role" value="admin" required="Yes">
 									<label> Admin </label><br/>
 								</div>
   								<div class="loginInputBox">
