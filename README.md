@@ -76,3 +76,9 @@ Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
 1.  To login as a Student:<br/>
         &emsp;Email: `CS360TestStudent@gmail.com`<br/>
         &emsp;Password: `CS360`<br/>
+2. To login as an Instructor:<br/>
+        &emsp;Email: `CS360TestInstructor@gmail.com`<br/>
+        &emsp;Password: `CS360`<br/>
+3. To login as an Admin:
+        &emsp;Email: `CS360TestAdmin@gmail.com`<br/>
+        &emsp;Password: `CS360`<br/>
