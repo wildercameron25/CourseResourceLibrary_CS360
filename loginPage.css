@@ -78,6 +78,7 @@ section .loginContentBox .loginFormBox h2 {
 	border-bottom: 4px solid #ff4584;
 	display: inline-block; 
 	letter-spacing: 1px; 
+	text-align: center;
 }
 
 section .loginContentBox .loginFormBox .loginInputBox {
