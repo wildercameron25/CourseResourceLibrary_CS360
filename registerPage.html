@@ -17,7 +17,7 @@
                       if (username == 'CS360TestStudent@gmail.com' && password == 'CS360' && userType == "Student"){
                              document.getElementById('sucess').innerHTML = 'sucessfully registered';
                              // redirect code in page
-                            // window.location.href = 'dashboardpage.html'
+                            // window.location.href = 'registerSuccess.html'
                         return false;
                         } else {
                              alert('invalid credentials');
@@ -42,7 +42,7 @@
   			<div class="registerContentBox">
   				<div class="registerFormBox">
   						<h2> Register your Account </h2>
-  						<form method="POST" onsubmit="return validateForm();" action="dashboardPage.html">
+  						<form method="POST" onsubmit="return validateForm();" action="registerSuccess.html">
   						     <div class="user-details"> 
   						         <div class="registerBioInputBox"> 
   						              <span> First Name </span> 
