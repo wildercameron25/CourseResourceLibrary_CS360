@@ -92,7 +92,7 @@ section .loginContentBox .loginFormBox .loginInputBox span {
 	font-size: 16px; 
 	margin-bottom: 5px;
 	display: inline-block;
-	color: purple:
+	color: purple;
 	font-weight: 300;
 	font-size: 16px;
 	letter-spacing: 1px; 
@@ -102,7 +102,7 @@ section .loginContentBox .loginFormBox .loginInputBox span {
 section .loginContentBox .loginFormBox .loginInputBox input {
 	
 	width: 100%;
-	padding: 5px; 20px;
+	padding: 5px 20px;
 	outline: none; 
 	font-weight: 400;
 	border: 2px solid black; 
@@ -147,7 +147,7 @@ section .loginContentBox .loginFormBox .rememberMe {
 section .loginContentBox .loginFormBox .loginInputBox a {
 
 		color: purple;
-		text-align: center: 
+		text-align: center;
 
 }
 
