@@ -67,3 +67,22 @@
     height: 100%;
   }
 
+  #forumListingPageHeader{
+    background-color: #d0b43c;
+  }
+
+  #forumListingPageBody{
+    background-color: #d0b43c;
+  }
+
+  #quizBtn{
+    background-color: #222;
+    color: #ffffff;
+
+  }
+
+  #forumBtn{
+    background-color: #ffffff;
+    color: #222;
+    padding: 20 20 20 20;
+  }
