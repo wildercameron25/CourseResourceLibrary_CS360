@@ -17,7 +17,27 @@
     </script>
 
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
+<script>
+    function checkParamaters(){
+        var topicText = document.getElementById("topic").value;
+        var questionText = document.getElementById("exampleFormControlTextarea1").value;
+        if(topicText == "" && questionText == ""){
+            alert("Please enter the Topic and ask a Question");
+            return false;
+        }
+        else if(questionText == ""){
+            alert("Please ask a Question");
+            return false;
+        }
+        else if(topicText == ""){
+            alert("Please enter the Topic");
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+</script>
 </head>
 
 <body>
@@ -55,14 +75,14 @@
                     <h5 class="card-header text-dark">Ask a Question</h5>
                     <br>
                     <div class="t-2">
-                        <input class="form-control form-control-lg" type="text" placeholder="Question Topic">
+                        <input class="form-control form-control-lg" id="topic" type="text" placeholder="Question Topic">
                     </div>
                     <br>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Question(s) Here"></textarea>
                     <div class="askQuestBtn">
-                        <a href="questionCreatedSuccess.html">
+                        <form onsubmit="return checkParamaters()" action="questionCreatedSuccess.html">
                             <input type="submit" id="askQuestnBtn" value="Ask Question">
-                        </a>
+                        </form>
                     </div>
                 </div>
                
