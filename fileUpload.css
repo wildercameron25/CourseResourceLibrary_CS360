@@ -1,24 +1,77 @@
-.mainBody{
-    background-color: #CFB53B;
-}
-
-.iframeClass{
-    padding: 10px 10px 10px 10px;
-}
-
-#uploadFileBtn{
-    background-color: #000000;
-    padding-bottom: px;
+#jokes {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  
+  .navbar-dark {
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  #footer {
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .jumbotron {
+    background: url(images/pfw.png);
     color: #ffffff;
-}
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow:auto;
+  }
+  
+  .my-4 {
+    border-color: #ffffff;
+  }
+  
+  body {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: #aaaaaa;
+  }
+  
+  .illuminator {
+    background-color: #eaeaea;
+    border-radius: 6px;
+    border-left: 6px solid #222;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  #FeedbackDown {
+    text-align: center;
+    font-size: 350%;
+  }
+  .outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    /*whatever width you want*/
+  }
+  
+  #uploadFileBtn{
+    background-color: #222;
+    color: #eaeaea;
+    display: inline-block;
+    width: 100%;
+  }
+  .uploadBtn{
+    padding-top: 20px;
+  }
 
-#frame{
-    background-color: #d3d3d3;
-    border-width: 3px;
-    border-color: #000000;
-}
-
-#submitBtn{
-    background-color: #000000;
-    color: #ffffff;
-}
+  #filPrev{
+      color: #000000;
+  }
