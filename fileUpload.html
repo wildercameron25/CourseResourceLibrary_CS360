@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Course Resource Library</title>
+        <link rel="stylesheet" href="fileUpload.css">
         <script>
             function previewFile() {
                 var preview = document.querySelector('iframe');
@@ -18,11 +19,12 @@
             }
         </script>
     </head>
-    <body>
+    <body class="mainBody" onsubmit="">
         <h1>Please Select the File that you would like to Upload:</h1>
-        <div>
-            <input type="file" id="uploadFile" onchange="previewFile()">
+        <form class="iframeClass">
+            <input type="file" id="uploadFileBtn" onchange="previewFile()">
             <iframe src="" width="100%" height="500px" title="your file"></iframe>
-        </div>
+            <input type="submit" id="submit button" value="submit">
+        </form>
     </body>
 </html>

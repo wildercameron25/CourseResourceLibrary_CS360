@@ -1,0 +1,13 @@
+.mainBody{
+    background-color: #CFB53B;
+}
+
+.iframeClass{
+    padding: 10px 10px 10px 10px;
+}
+
+#uploadFileBtn{
+    background-color: black;
+    padding-bottom: 2px;
+    color: whitesmoke;
+}
