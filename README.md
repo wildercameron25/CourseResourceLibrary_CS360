@@ -1,9 +1,51 @@
-## Course Resource Library - Fall 2021
+# Course Resource Library - Spring 2022
 
-This project focuses on the client aspect of the project
+This is edit of the above project done by the former Team 3<br/>
+All of our changes will be done based off of the source code supplied to us
 
-Team 3: 
-Nick Scoble, Sarina Lalria, Trusha Patel, & Yi-Shian Liu
+Team 4:<br/>
+Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
+
+--- 
+
+# Our Goals
+1.  To implement seperate login methods for the following:<br />
+        &emsp;Students<br />
+        &emsp;Instructors<br/>
+        &emsp;Admins<br/>
+2.  To allow the above register for their assigned roles
+
+--- 
+
+# To Register
+1.  To register sucessfull under the "Student" category:<br/>
+        &emsp;Email: `CS360TestStudent@gmail.com`<br/>
+        &emsp;Password: `CS360`<br/>
+        &emsp;Role: `Student`<br/>
+    This will take you to the dashboard page
+1.  To register sucessfull under the "Instructor" category:<br/>
+        &emsp;Email: `CS360TestInstructor@gmail.com`<br/>
+        &emsp;Password: `CS360`<br/>
+        &emsp;Role: `Student`<br/>
+    This will take you to the dashboard page
+1.  To register sucessfull under the "Admin" category:<br/>
+        &emsp;Email: `CS360TestAdmin@gmail.com`<br/>
+        &emsp;Password: `CS360`<br/>
+        &emsp;Role: `Student`<br/>
+    This will take you to the dashboard page
+
+---
+
+# To Login
+1.  To login as a Student:<br/>
+        &emsp;Email: `CS360TestStudent@gmail.com`<br/>
+        &emsp;Password: `CS360`<br/>
+2. To login as an Instructor:<br/>
+        &emsp;Email: `CS360TestInstructor@gmail.com`<br/>
+        &emsp;Password: `CS360`<br/>
+3. To login as an Admin:<br/>
+        &emsp;Email: `CS360TestAdmin@gmail.com`<br/>
+        &emsp;Password: `CS360`<br/>
 
 --- 
 
@@ -35,50 +77,3 @@ app.listen(your_port or 3000)
 9. Going to your sites domain, or localhost, you can view every file as intended
 
 Due to the project being primarily client based, there is no server-aspect to deploy so you merely have to just clone the files to a local folder
-
-# To Access the site
-1. The default username is `CS360Test@gmail.com` and the default password is `CS360` 
-"# CS360" 
-
----
----
----
-
-# Course Resource Library - Spring 2022
-
-This is edit of the above project done by the former Team 3<br/>
-All of our changes will be done based off of the source code supplied to us
-
-Team 4:<br/>
-Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
-
---- 
-
-# Our Goals
-1.  To implement seperate login methods for the following:<br />
-        &emsp;Students<br />
-        &emsp;Instructors<br/>
-        &emsp;Admins<br/>
-2.  To allow the above register for their assigned roles
-
---- 
-
-# To Register
-1.  To register sucessfull under the "Student" category:<br/>
-        &emsp;Email: `CS360TestStudent@gmail.com`<br/>
-        &emsp;Password: `CS360`<br/>
-        &emsp;Role: `Student`<br/>
-    This will take you to the dashboard page
-
----
-
-# To Login
-1.  To login as a Student:<br/>
-        &emsp;Email: `CS360TestStudent@gmail.com`<br/>
-        &emsp;Password: `CS360`<br/>
-2. To login as an Instructor:<br/>
-        &emsp;Email: `CS360TestInstructor@gmail.com`<br/>
-        &emsp;Password: `CS360`<br/>
-3. To login as an Admin:<br/>
-        &emsp;Email: `CS360TestAdmin@gmail.com`<br/>
-        &emsp;Password: `CS360`<br/>
