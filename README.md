@@ -26,12 +26,12 @@ Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
 1.  To register sucessfull under the "Instructor" category:<br/>
         &emsp;Email: `CS360TestInstructor@gmail.com`<br/>
         &emsp;Password: `CS360`<br/>
-        &emsp;Role: `Student`<br/>
+        &emsp;Role: `Instructor`<br/>
     This will take you to the dashboard page
 1.  To register sucessfull under the "Admin" category:<br/>
         &emsp;Email: `CS360TestAdmin@gmail.com`<br/>
         &emsp;Password: `CS360`<br/>
-        &emsp;Role: `Student`<br/>
+        &emsp;Role: `Admin`<br/>
     This will take you to the dashboard page
 
 ---
