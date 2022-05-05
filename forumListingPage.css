@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 85vh;
+    width: 100%;
+    background-image: url(images/pfw.png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+}
+.topnavbar{
+  width: 100%;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: #d0b43c;
+}
+
+.logo{
+  width: auto;
+  height: 10vh;
+}
+
+nav{
+  flex: 1;
+  padding-left: 60px;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.Forums{
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+  background-color: #F8F3F3;
+  height: 78vh;
+}
+
+.bottomnavbar {
+  position: absolute;
+  z-index: 100;
+  bottom: 0px;
+  left: 100;
+  width: 100%;
+  height: 10vh;
+  background-color: #000000
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.bottom {
+  display: flex;
+  color: grey;
+  font-size: 12px;
+}
+
+.timestamp {
+  padding-right: 10px;
+}
