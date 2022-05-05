@@ -1,6 +1,6 @@
 # Course Resource Library - Spring 2022
 
-This is edit of the above project done by the former Team 3<br/>
+This is edit of the prior project done by the former Team 3<br/>
 All of our changes will be done based off of the source code supplied to us
 
 Team 4:<br/>
@@ -9,7 +9,7 @@ Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
 --- 
 
 # Our Goals
-1.  To implement seperate login methods for the following:<br />
+1.  To implement separate login methods for the following:<br />
         &emsp;Students<br />
         &emsp;Instructors<br/>
         &emsp;Admins<br/>
@@ -18,17 +18,17 @@ Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
 --- 
 
 # To Register
-1.  To register sucessfull under the "Student" category:<br/>
+1.  To register successfully  under the "Student" category:<br/>
         &emsp;Email: `CS360TestStudent@gmail.com`<br/>
         &emsp;Password: `CS360`<br/>
         &emsp;Role: `Student`<br/>
     This will take you to the dashboard page
-1.  To register sucessfull under the "Instructor" category:<br/>
+1.  To register successfully  under the "Instructor" category:<br/>
         &emsp;Email: `CS360TestInstructor@gmail.com`<br/>
         &emsp;Password: `CS360`<br/>
         &emsp;Role: `Instructor`<br/>
     This will take you to the dashboard page
-1.  To register sucessfull under the "Admin" category:<br/>
+1.  To register successfully  under the "Admin" category:<br/>
         &emsp;Email: `CS360TestAdmin@gmail.com`<br/>
         &emsp;Password: `CS360`<br/>
         &emsp;Role: `Admin`<br/>

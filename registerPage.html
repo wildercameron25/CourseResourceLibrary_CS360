@@ -15,11 +15,18 @@
                      var password = document.getElementById('password').value;
 					 var userType = document.getElementById('userType').value;
                       if (username == 'CS360TestStudent@gmail.com' && password == 'CS360' && userType == "Student"){
-                             document.getElementById('sucess').innerHTML = 'sucessfully registered';
+                             document.getElementById('success').innerHTML = 'sucessfully registered';
                              // redirect code in page
                             // window.location.href = 'registerSuccess.html'
-                        return false;
-                        } else {
+                        return true;
+                        } 
+						else if(username == 'CS360TestInstructor@gmail.com' && password == 'CS360' && userType == "Instructor"){
+							return true;
+						}
+						else if(username == 'CS360TestAdmin@gmail.com' && password == 'CS360' && userType == "Admin"){
+							return true;
+						}
+							else {
                              alert('invalid credentials');
                             return false;
                          }
