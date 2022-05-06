@@ -22,17 +22,17 @@ Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
         &emsp;Email: `CS360TestStudent@gmail.com`<br/>
         &emsp;Password: `CS360`<br/>
         &emsp;Role: `Student`<br/>
-    This will take you to the dashboard page
+    This will take you to a confirmation page
 1.  To register successfully  under the "Instructor" category:<br/>
         &emsp;Email: `CS360TestInstructor@gmail.com`<br/>
         &emsp;Password: `CS360`<br/>
         &emsp;Role: `Instructor`<br/>
-    This will take you to the dashboard page
+    This will take you to a confirmation page
 1.  To register successfully  under the "Admin" category:<br/>
         &emsp;Email: `CS360TestAdmin@gmail.com`<br/>
         &emsp;Password: `CS360`<br/>
         &emsp;Role: `Admin`<br/>
-    This will take you to the dashboard page
+    This will take you to a confirmation page
 
 ---
 
@@ -50,6 +50,8 @@ Samuel Acra, Yashi Yadav, Ive Bigirimana, & Cameron Wilder
 --- 
 
 # Instructions on how to deploy
+We will recommend the same method of deployment that was recommended to us:
+
 1. Clone the repository
 2. Edit it as you intend to, as this is just the client portion and no-server portion was picked.
 
